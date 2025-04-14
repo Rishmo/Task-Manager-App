@@ -1,11 +1,10 @@
-```markdown
 # ✅ Task Manager App
 
 An all-in-one **full-stack Task Manager** application built with **React**, **Node.js**, and **a JSON file as the database** — designed with a modern, clean, and premium user interface to impress recruiters and boost productivity.
 
 > 🌐 **Live Demos**  
-> 🔸 Frontend: [task-manager-app-vert-five.vercel.app]
-> 🔸 Backend: [task-manager-app-cnc3.vercel.app]
+> 🔸 Frontend: (https://task-manager-app-vert-five.vercel.app/)
+> 🔸 Backend: (https://task-manager-app-cnc3.vercel.app/)
 
 ---
 
@@ -46,7 +45,7 @@ An all-in-one **full-stack Task Manager** application built with **React**, **No
 
 ## 📦 Project Structure
 
-
+```
 task-manager-app/
 │
 ├── frontend/               # React application
@@ -63,49 +62,48 @@ task-manager-app/
 │   │   ├── authRoutes.js
 │   │   └── taskRoutes.js
 │   └── server.js
-
+```
 
 ---
 
 ## ⚙️ Installation & Setup
 
 ### 🔹 1. Clone the Repository
-
+```
 bash
 git clone https://github.com/Rishmo/Task-Manager-App.git
 cd task-manager-app
-
+```
 ---
 
 ### 🔹 2. Frontend Setup
-
+```
 bash
 cd frontend
 npm install
 npm start
-
+```
 > Runs on `http://localhost:3000`
 
 ---
 
 ### 🔹 3. Backend Setup
-
+```
 bash
 cd backend
 npm install
 node server.js
-
-
+```
 > Runs on `http://localhost:5000`
 
 > ✅ No external database needed. It uses a local `db.json` file with:
-
+```
 json
 {
   "users": [],
   "tasks": []
 }
-
+```
 
 ---
 
