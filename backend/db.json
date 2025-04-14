@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "email": "moon@gmail.com",
+      "password": "moon",
+      "_id": "1744627214400"
+    },
+    {
+      "email": "moon@gmail.com",
+      "password": "moon",
+      "_id": "1744649563903"
+    }
+  ],
+  "tasks": [
+    {
+      "userId": "1744627214400",
+      "title": "Morning Walk",
+      "description": "6 AM",
+      "completed": false,
+      "_id": "1744649735321"
+    }
+  ]
+}
